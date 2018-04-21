@@ -1,0 +1,112 @@
+@charset "UTF-8";
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font: 14px/100% "微软雅黑", "Microsoft YaHei", arial; }
+
+html, body, ul, ol, li, h1, h2, h3, h4, h5, h6, p, dl, dt, dd {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 100%; }
+
+ul, ol, li {
+  list-style: none; }
+
+input, select, textarea {
+  outline: none;
+  resize: none; }
+
+a {
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+  color: #383a4c; }
+
+img {
+  vertical-align: middle;
+  border: none; }
+
+a, img, button, input, textarea, p {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0); }
+
+input, textarea {
+  -webkit-appearance: none; }
+
+input::-webkit-input-placeholder {
+  color: #cbc8cb; }
+
+html {
+  height: 100%; }
+
+div {
+  box-sizing: border-box; }
+
+body {
+  position: relative;
+  bottom: 0;
+  height: auto;
+  min-height: 100%;
+  _height: 100%;
+  overflow-x: visible;
+  background-size: 100% 100%;
+  background-color: #fff; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.clearfix {
+  *zoom: 1; }
+  .clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+    font: 0/0 a; }
+  .clearfix:after {
+    clear: both; }
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?t8uevv");
+  src: url("../fonts/icomoon.eot?t8uevv#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?t8uevv") format("truetype"), url("../fonts/icomoon.woff?t8uevv") format("woff"), url("../fonts/icomoon.svg?t8uevv#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-wechat:before {
+  content: "\e901"; }
+
+.icon-home:before {
+  content: "\e900"; }
+
+.icon-mobile:before {
+  content: "\e958"; }
+
+.icon-arrow-down:before {
+  content: "\ea36"; }
+
+.icon-twitch:before {
+  content: "\ea9f"; }
+
+
+
+/*# sourceMappingURL=maps/main.css.map */
